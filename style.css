@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4vmain;
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 20px;
+    font-size: 8vmin;
+    color: red;
+    background-color: aliceblue;
+
+}
+.resetbutton{
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: aqua;
+    color: blue;
+
+}
